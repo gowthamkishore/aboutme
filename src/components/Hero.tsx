@@ -20,13 +20,17 @@ export default function Hero() {
             Gowtham Kishore
           </h1>
         </Reveal>
+        <Reveal delay={75}>
+          <p className="mt-3 text-base font-semibold text-foreground">
+            Founder, Gixtronix Technologies
+          </p>
+        </Reveal>
         <Reveal delay={100}>
           <p className="mt-6 text-lg text-muted">
             I&rsquo;m a 90s kid who never stopped taking things apart,
             now building test &amp; measurement, automation, and IIoT
             systems for manufacturers across automotive, energy, defense,
-            and advanced industrial sectors. Founder of Gixtronix
-            Technologies.
+            and advanced industrial sectors.
           </p>
         </Reveal>
         <Reveal delay={200}>

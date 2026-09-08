@@ -29,7 +29,7 @@ const MILESTONES = [
     period: "2024 – 2026",
     title: "MTech in Embedded Systems, BITS Pilani (WILP)",
     detail:
-      "Went back to formal study part-time while running the company, to go deeper on embedded systems.",
+      "Went back to formal study part-time while running the company, completing the degree to go deeper on embedded systems.",
   },
 ];
 

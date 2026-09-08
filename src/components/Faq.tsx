@@ -19,7 +19,7 @@ const FAQS = [
   },
   {
     q: "Are you still studying?",
-    a: "Yes, I'm pursuing an MTech in Embedded Systems at BITS Pilani (WILP), part-time, alongside running Gixtronix.",
+    a: "I completed an MTech in Embedded Systems at BITS Pilani (WILP), part-time, alongside running Gixtronix.",
   },
   {
     q: "Do you take on freelance or consulting work?",

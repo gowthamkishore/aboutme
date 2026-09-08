@@ -18,6 +18,10 @@ const GROUPS = [
     ],
   },
   {
+    title: "Design Software",
+    tags: ["SolidWorks", "AutoCAD", "Fusion 360", "KiCad", "Eagle"],
+  },
+  {
     title: "Software",
     tags: [
       "LabVIEW (Desktop, RT, FPGA, TestStand)",

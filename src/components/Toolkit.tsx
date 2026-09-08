@@ -67,10 +67,7 @@ export default function Toolkit() {
           </h2>
         </Reveal>
         <Reveal delay={50}>
-          <p className="mt-4 max-w-[680px] text-lg text-muted">
-            Hardware and software I reach for regularly, across test rigs,
-            plant floors, and product builds.
-          </p>
+          <p className="mt-4 max-w-[680px] text-lg text-muted">Hardware and software I reach for regularly, across test rigs, plant floors, and product builds.</p>
         </Reveal>
         <div className="mt-12 space-y-10">
           {GROUPS.map((g, i) => (

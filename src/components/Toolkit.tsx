@@ -22,7 +22,7 @@ const GROUPS = [
     tags: ["SolidWorks", "AutoCAD", "Fusion 360", "KiCad", "Eagle"],
   },
   {
-    title: "Software",
+    title: "Development Software",
     tags: [
       "LabVIEW (Desktop, RT, FPGA, TestStand)",
       "Python",

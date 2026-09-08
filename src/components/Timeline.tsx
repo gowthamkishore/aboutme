@@ -26,7 +26,7 @@ const MILESTONES = [
       "Started the company to own what I build. 10+ years and 100+ systems deployed since, across automotive, energy, and defense.",
   },
   {
-    period: "2024 – 2025",
+    period: "2024 – 2026",
     title: "MTech in Embedded Systems, BITS Pilani (WILP)",
     detail:
       "Went back to formal study part-time while running the company, to go deeper on embedded systems.",

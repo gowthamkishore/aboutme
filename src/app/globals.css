@@ -6,8 +6,8 @@
   --surface: #f4f4f4;
   --border: #e5e5e5;
   --muted: #666666;
-  --accent: #f1fa8c;
-  --accent-2: #958cfa;
+  --accent: #958cfa;
+  --accent-2: #f1fa8c;
 }
 
 @theme inline {
@@ -29,8 +29,8 @@
   --surface: #181818;
   --border: #272727;
   --muted: #9b9b9b;
-  --accent: #f1fa8c;
-  --accent-2: #958cfa;
+  --accent: #958cfa;
+  --accent-2: #f1fa8c;
 }
 
 body {

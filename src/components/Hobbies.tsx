@@ -41,7 +41,7 @@ export default function Hobbies() {
                 className="inline-flex shrink-0 items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
               >
                 <GooglePlayLogo size={18} weight="fill" />
-                Play on Google Play
+                Download on Google Play
               </a>
             </div>
             <ul className="mt-6 grid grid-cols-1 gap-x-8 gap-y-2 text-base text-muted sm:grid-cols-2">

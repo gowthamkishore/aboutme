@@ -36,7 +36,7 @@ const SKILLS = [
     icon: Rocket,
     title: "Product Development",
     detail:
-      "Taking products from idea to shipped, mostly solo, spanning SignalStream Studio, GixDAQ, Gixtrack, and Smart OEE.",
+      "Taking products from idea to shipped, spanning SignalStream Studio, GixDAQ, Gixtrack, and Smart OEE.",
   },
 ];
 

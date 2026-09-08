@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Briefcase } from "@phosphor-icons/react/dist/ssr";
 import Reveal from "./Reveal";
 
 export default function Hero() {
@@ -21,9 +22,10 @@ export default function Hero() {
           </h1>
         </Reveal>
         <Reveal delay={75}>
-          <p className="mt-3 text-base font-semibold text-foreground">
-            Founder, Gixtronix Technologies
-          </p>
+          <span className="mt-4 inline-flex items-center gap-2 rounded-full border border-border px-4 py-1.5 text-sm font-medium text-muted">
+            <Briefcase size={16} weight="light" className="text-foreground" />
+            Founder of Gixtronix Technologies
+          </span>
         </Reveal>
         <Reveal delay={100}>
           <p className="mt-6 text-lg text-muted">

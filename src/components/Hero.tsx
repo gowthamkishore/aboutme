@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Reveal from "./Reveal";
 
-const LOGOS = ["ISRO", "DRDO", "HAL", "Eicher", "Aptiv", "Valeo"];
+const LOGOS = ["ISRO", "DRDO", "HAL", "EICHER", "APTIV", "VALEO"];
 
 export default function Hero() {
   return (

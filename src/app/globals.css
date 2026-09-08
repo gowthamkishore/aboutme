@@ -64,7 +64,7 @@ p {
 }
 
 .word.is-active {
-  color: var(--accent);
+  color: var(--foreground);
 }
 
 .btn-glow {

@@ -42,7 +42,7 @@ export default function TaglineReveal() {
     <section className="border-y border-border">
       <div
         ref={containerRef}
-        className="mx-auto max-w-[680px] px-6 py-20 text-center sm:py-24"
+        className="mx-auto max-w-5xl px-6 py-20 text-center sm:py-24"
       >
         {LINES.map((line, lineIdx) => (
           <p

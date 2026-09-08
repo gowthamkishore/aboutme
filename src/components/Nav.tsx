@@ -28,7 +28,7 @@ export default function Nav() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-muted transition-colors duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:text-foreground"
+                className="text-sm text-muted transition-colors duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:text-accent"
               >
                 {link.label}
               </a>
@@ -36,7 +36,7 @@ export default function Nav() {
           </div>
           <a
             href="#contact"
-            className="hidden rounded-full bg-foreground px-3 py-1.5 text-sm font-semibold text-background transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98] sm:inline-block"
+            className="hidden rounded-full bg-accent px-3 py-1.5 text-sm font-semibold text-white transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.02] active:scale-[0.98] sm:inline-block"
           >
             Get in touch
           </a>
@@ -81,7 +81,7 @@ export default function Nav() {
         <a
           href="#contact"
           onClick={() => setOpen(false)}
-          className={`mt-4 rounded-full bg-white px-5 py-2.5 text-base font-semibold text-black transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] ${
+          className={`mt-4 rounded-full bg-accent px-5 py-2.5 text-base font-semibold text-white transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] ${
             open ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
           }`}
           style={{ transitionDelay: open ? `${100 + LINKS.length * 50}ms` : "0ms" }}

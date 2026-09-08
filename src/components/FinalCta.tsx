@@ -15,7 +15,7 @@ export default function FinalCta() {
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
             <a
               href="mailto:gowthamkishorer@gixtronix.in"
-              className="rounded-full bg-foreground px-6 py-3 text-base font-semibold text-background transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.02] active:scale-[0.98]"
+              className="rounded-full bg-accent px-6 py-3 text-base font-semibold text-white transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.02] active:scale-[0.98]"
             >
               gowthamkishorer@gixtronix.in
             </a>

@@ -23,7 +23,7 @@ export default function Hero() {
         </Reveal>
         <Reveal delay={75}>
           <span className="mt-4 inline-flex items-center gap-2 rounded-full border border-border px-4 py-1.5 text-sm font-medium text-muted">
-            <Briefcase size={16} weight="light" className="text-foreground" />
+            <Briefcase size={16} weight="light" className="text-accent" />
             Founder of Gixtronix Technologies
           </span>
         </Reveal>
@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
             <a
               href="#story"
-              className="rounded-full bg-foreground px-6 py-3 text-base font-semibold text-background transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.02] active:scale-[0.98]"
+              className="rounded-full bg-accent px-6 py-3 text-base font-semibold text-white transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.02] active:scale-[0.98]"
             >
               My story
             </a>

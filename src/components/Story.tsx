@@ -27,19 +27,12 @@ const PARAGRAPHS = [
 
 export default function Story() {
   return (
-    <div>
-      <Reveal>
-        <h2 className="text-3xl font-semibold sm:text-4xl">
-          How a curious kid became an engineer
-        </h2>
-      </Reveal>
-      <div className="mt-8 space-y-5">
-        {PARAGRAPHS.map((p, i) => (
-          <Reveal key={i} delay={i * 75}>
-            <p className="text-lg leading-relaxed text-muted">{p}</p>
-          </Reveal>
-        ))}
-      </div>
+    <div className="space-y-5">
+      {PARAGRAPHS.map((p, i) => (
+        <Reveal key={i} delay={i * 75}>
+          <p className="text-lg leading-relaxed text-muted">{p}</p>
+        </Reveal>
+      ))}
     </div>
   );
 }

@@ -39,7 +39,7 @@ export default function Skills() {
     <section id="skills" className="px-6 py-20 sm:py-28">
       <div className="mx-auto max-w-5xl">
         <Reveal>
-          <h2 className="text-3xl font-semibold sm:text-4xl">
+          <h2 className="text-3xl font-semibold text-accent sm:text-4xl">
             Skills built through the work, not just theory
           </h2>
         </Reveal>

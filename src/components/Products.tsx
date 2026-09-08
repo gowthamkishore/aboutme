@@ -61,7 +61,9 @@ export default function Products() {
               <span className="mt-4 block text-xs font-medium tracking-wide text-muted uppercase">
                 {FEATURED.tag}
               </span>
-              <h3 className="mt-2 text-2xl font-semibold">{FEATURED.title}</h3>
+              <h3 className="mt-2 text-2xl font-semibold" style={{ color: "#ff5101" }}>
+                {FEATURED.title}
+              </h3>
               <p className="mt-3 max-w-2xl text-base text-muted">{FEATURED.detail}</p>
             </div>
             <span className="mt-6 shrink-0 rounded-full border border-border px-5 py-2.5 text-sm font-semibold text-foreground sm:mt-0">

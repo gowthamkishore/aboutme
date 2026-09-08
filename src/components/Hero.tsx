@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Reveal from "./Reveal";
 
-const LOGOS = ["ISRO", "DRDO", "HAL", "EICHER", "APTIV", "VALEO"];
-
 export default function Hero() {
   return (
     <section id="top" className="px-6 pt-40 pb-20 sm:pt-48 sm:pb-24">
@@ -48,17 +46,6 @@ export default function Hero() {
           </div>
         </Reveal>
       </div>
-
-      <Reveal delay={300}>
-        <div className="mx-auto mt-16 flex max-w-3xl flex-wrap items-center justify-center gap-x-10 gap-y-3">
-          <span className="text-sm text-muted">Flagship engagements with</span>
-          {LOGOS.map((logo) => (
-            <span key={logo} className="text-sm font-medium text-muted">
-              {logo}
-            </span>
-          ))}
-        </div>
-      </Reveal>
     </section>
   );
 }

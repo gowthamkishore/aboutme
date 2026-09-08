@@ -22,9 +22,7 @@ const PARAGRAPHS = [
   that decision has turned into 100+ systems deployed and partners like
   ISRO, DRDO, and HAL.`,
   `I'm still the same kid who wants to know how things work, just with
-  better tools now, and a habit of going back for more of them: I'm
-  currently pursuing an MTech in Embedded Systems at BITS Pilani
-  (2024–2025), part-time, alongside running the company.`,
+  better tools now.`,
 ];
 
 export default function Story() {

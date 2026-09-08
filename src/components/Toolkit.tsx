@@ -24,7 +24,7 @@ const GROUPS = [
   {
     title: "Development Software",
     tags: [
-      "LabVIEW (Desktop, RT, FPGA, TestStand)",
+      "LabVIEW (Desktop, RT, FPGA)",
       "VS Code",
       "CODESYS",
       "STM32CubeMX",

@@ -24,7 +24,7 @@ const SKILLS = [
     icon: Code,
     title: "Application & Software",
     detail:
-      "LabVIEW across Desktop, Real-Time, FPGA, and TestStand, plus Python, Power BI dashboards, and Flutter mobile/web apps.",
+      "LabVIEW across Desktop, Real-Time, and FPGA, plus Python, Power BI dashboards, and Flutter mobile/web apps.",
   },
   {
     icon: Cpu,

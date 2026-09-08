@@ -33,12 +33,18 @@ const GROUPS = [
   {
     title: "Protocols & Integration",
     tags: [
-      "Modbus",
+      "PROFINET",
+      "EtherNet/IP",
+      "EtherCAT",
+      "Modbus TCP/IP",
+      "PROFIBUS DP/PA",
+      "CANopen",
+      "CC-Link",
+      "HART",
       "OPC UA",
       "MQTT",
       "DNP3",
       "IEC 61850",
-      "EtherNet/IP",
     ],
   },
 ];

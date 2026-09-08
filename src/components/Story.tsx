@@ -17,13 +17,14 @@ const PARAGRAPHS = [
   `What opened instead was a role in Bangalore as an Application Engineer,
   building LabVIEW-based software for industrial automation (2014–2015),
   followed by a move to Chennai as a Project Engineer (2015–2016).`,
-  `By 2016 I wanted to own what I built instead of just executing someone
-  else's roadmap, so I founded Gixtronix Technologies. A decade, 100+
-  systems, and partners like ISRO, DRDO, and HAL later, I'm still the
-  same kid who wants to know how things work, just with better tools
-  now. I'm also back in the classroom part-time, pursuing an MTech in
-  Embedded Systems at BITS Pilani (2024–2025), alongside running the
-  company.`,
+  `By 2016 I wanted to own what I built instead of executing someone
+  else's roadmap, so I founded Gixtronix Technologies. A decade later,
+  that decision has turned into 100+ systems deployed and partners like
+  ISRO, DRDO, and HAL.`,
+  `I'm still the same kid who wants to know how things work, just with
+  better tools now, and a habit of going back for more of them: I'm
+  currently pursuing an MTech in Embedded Systems at BITS Pilani
+  (2024–2025), part-time, alongside running the company.`,
 ];
 
 export default function Story() {

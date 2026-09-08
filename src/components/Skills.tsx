@@ -1,4 +1,4 @@
-import { Gauge, Factory, Circuitry, Code, Cpu } from "@phosphor-icons/react/dist/ssr";
+import { Gauge, Factory, Circuitry, Code, Cpu, Rocket } from "@phosphor-icons/react/dist/ssr";
 import Reveal from "./Reveal";
 
 const SKILLS = [
@@ -31,6 +31,12 @@ const SKILLS = [
     title: "Embedded Systems",
     detail:
       "Concept-to-production hardware, PCB design, firmware/RTOS, sharpened further by an ongoing MTech in Embedded Systems.",
+  },
+  {
+    icon: Rocket,
+    title: "Product Development",
+    detail:
+      "Taking products from idea to shipped, mostly solo, spanning SignalStream Studio, GixDAQ, Gixtrack, and Smart OEE.",
   },
 ];
 

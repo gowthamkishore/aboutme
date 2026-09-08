@@ -3,8 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 
 const LINES = [
-  "I didn't set out to build a company.",
-  "I just never stopped taking things apart.",
+  "Still the kid who takes things apart.",
+  "Now I put them back together as products.",
 ];
 
 export default function TaglineReveal() {

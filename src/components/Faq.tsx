@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     q: "Do you take on freelance or consulting work?",
-    a: "Yes, through Gixtronix Technologies. Ready to work across test & measurement, manufacturing automation, intelligent IIoT & AI, application & software development, embedded systems, and product development, using LabVIEW, Python, C/C++, Power BI, Azure IoT, Flutter, SCADA, MES, PLC/HMI platforms like Siemens, Beckhoff, and Allen-Bradley, and protocols including PROFINET, EtherNet/IP, EtherCAT, Modbus TCP/IP, PROFIBUS, CANopen, OPC UA, and MQTT. Most engagements integrate with existing PLCs, SCADA, MES, ERP, or legacy equipment rather than starting from scratch.",
+    a: "Yes, through Gixtronix Technologies. Ready to work across test & measurement, manufacturing automation, intelligent IIoT & AI, application & software development, embedded systems, and product development, using LabVIEW, Python, C/C++, Power BI, Azure IoT, Flutter, SCADA, MES, PLC/HMI platforms like Siemens, Beckhoff, and Allen-Bradley, and protocols including PROFINET, EtherNet/IP, EtherCAT, Modbus TCP/IP, PROFIBUS, CANopen, OPC UA, and MQTT.",
   },
   {
     q: "Where are you based?",

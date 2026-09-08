@@ -4,6 +4,7 @@ import TaglineReveal from "@/components/TaglineReveal";
 import Story from "@/components/Story";
 import Timeline from "@/components/Timeline";
 import Skills from "@/components/Skills";
+import Toolkit from "@/components/Toolkit";
 import Achievements from "@/components/Achievements";
 import Products from "@/components/Products";
 import Hobbies from "@/components/Hobbies";
@@ -21,6 +22,7 @@ export default function Home() {
         <Story />
         <Timeline />
         <Skills />
+        <Toolkit />
         <Achievements />
         <Products />
         <Hobbies />

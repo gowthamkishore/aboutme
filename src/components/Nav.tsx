@@ -6,6 +6,7 @@ const LINKS = [
   { label: "Story", href: "#story" },
   { label: "Timeline", href: "#timeline" },
   { label: "Skills", href: "#skills" },
+  { label: "Toolkit", href: "#toolkit" },
   { label: "Achievements", href: "#achievements" },
   { label: "Products", href: "#products" },
   { label: "Hobbies", href: "#hobbies" },

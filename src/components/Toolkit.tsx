@@ -28,6 +28,7 @@ const GROUPS = [
       "VS Code",
       "CODESYS",
       "STM32CubeMX",
+      "TIA Portal",
       "Python",
       "C / C++",
       "Power BI",

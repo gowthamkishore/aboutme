@@ -6,7 +6,7 @@
   --surface: #f4f4f4;
   --border: #e5e5e5;
   --muted: #666666;
-  --accent: #6049ea;
+  --accent: #f1fa8c;
 }
 
 @theme inline {
@@ -27,7 +27,7 @@
   --surface: #181818;
   --border: #272727;
   --muted: #9b9b9b;
-  --accent: #6049ea;
+  --accent: #f1fa8c;
 }
 
 body {

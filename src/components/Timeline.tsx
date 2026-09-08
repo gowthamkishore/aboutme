@@ -11,7 +11,7 @@ const MILESTONES = [
     period: "2014 – 2015",
     title: "Application Engineer, Bangalore",
     detail:
-      "First job out of college, after several closed doors — building LabVIEW-based software for industrial automation.",
+      "First job out of college, after several closed doors, building LabVIEW-based software for industrial automation.",
   },
   {
     period: "2015 – 2016",
@@ -27,7 +27,7 @@ const MILESTONES = [
   },
   {
     period: "2024 – 2025",
-    title: "MTech, Embedded Systems — BITS Pilani (WILP)",
+    title: "MTech in Embedded Systems, BITS Pilani (WILP)",
     detail:
       "Went back to formal study part-time while running the company, to go deeper on embedded systems.",
   },

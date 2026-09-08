@@ -30,7 +30,7 @@ const SKILLS = [
     icon: Cpu,
     title: "Embedded Systems",
     detail:
-      "Concept-to-production hardware, PCB design, firmware/RTOS — sharpened further by an ongoing MTech in Embedded Systems.",
+      "Concept-to-production hardware, PCB design, firmware/RTOS, sharpened further by an ongoing MTech in Embedded Systems.",
   },
 ];
 

@@ -10,7 +10,7 @@ export default function FinalCta() {
           </h2>
           <p className="mt-4 text-lg text-muted">
             Whether it&rsquo;s a new engineering challenge, a collaboration,
-            or just to say hi — I read every message myself.
+            or just to say hi. I read every message myself.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
             <a

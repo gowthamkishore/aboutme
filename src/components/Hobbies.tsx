@@ -26,7 +26,7 @@ export default function Hobbies() {
               <div>
                 <GameController size={24} weight="light" className="text-foreground" />
                 <h3 className="mt-4 text-lg font-semibold">
-                  SkyMaster Rogue — a game I built
+                  SkyMaster Rogue: a game I built
                 </h3>
                 <p className="mt-2 max-w-[520px] text-base text-muted">
                   A self-developed mobile game: fast-paced 2D aerial
@@ -63,7 +63,7 @@ export default function Hobbies() {
               </div>
               <h3 className="mt-4 text-lg font-semibold">Cars &amp; aviation</h3>
               <p className="mt-2 text-base text-muted">
-                An enthusiast for anything with an engine or wings — the
+                An enthusiast for anything with an engine or wings, the
                 same curiosity that took RC cars apart as a kid still
                 shows up here.
               </p>
@@ -74,7 +74,7 @@ export default function Hobbies() {
               <Compass size={24} weight="light" className="text-foreground" />
               <h3 className="mt-4 text-lg font-semibold">Travel</h3>
               <p className="mt-2 text-base text-muted">
-                Chasing hidden gems and the people behind them — across
+                Chasing hidden gems and the people behind them, across
                 almost every state in India, and further out to Vietnam,
                 Thailand, Malaysia, and Singapore.
               </p>

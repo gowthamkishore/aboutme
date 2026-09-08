@@ -15,11 +15,11 @@ const FAQS = [
   },
   {
     q: "What have the ISRO, DRDO, and HAL engagements involved?",
-    a: "Defense and aerospace R&D test systems — including a hydraulic bearing & damper rig up to 200kN load and a real-time IC engine validation system.",
+    a: "Defense and aerospace R&D test systems, including a hydraulic bearing & damper rig up to 200kN load and a real-time IC engine validation system.",
   },
   {
     q: "Are you still studying?",
-    a: "Yes — I'm pursuing an MTech in Embedded Systems at BITS Pilani (WILP), part-time, alongside running Gixtronix.",
+    a: "Yes, I'm pursuing an MTech in Embedded Systems at BITS Pilani (WILP), part-time, alongside running Gixtronix.",
   },
   {
     q: "Do you take on freelance or consulting work?",
@@ -31,7 +31,7 @@ const FAQS = [
   },
   {
     q: "Can I see past work?",
-    a: "Yes, case studies across test rigs, SCADA systems, and IIoT deployments are available on request — just reach out.",
+    a: "Yes, case studies across test rigs, SCADA systems, and IIoT deployments are available on request. Just reach out.",
   },
 ];
 

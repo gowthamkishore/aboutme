@@ -5,7 +5,7 @@ const FEATURED = {
   tag: "Flagship product · Industrial dashboards",
   title: "SignalStream Studio",
   detail:
-    "A drag-and-drop canvas that links PLCs, industrial protocols, and corporate databases to a live dashboard — built locally on a factory PC, then mirrored out to a Smart TV, browser, or phone. Connect, design, and publish in three steps.",
+    "A drag-and-drop canvas that links PLCs, industrial protocols, and corporate databases to a live dashboard, built locally on a factory PC, then mirrored out to a Smart TV, browser, or phone. Connect, design, and publish in three steps.",
   href: "https://signalstreamstudio.com",
   cta: "Visit signalstreamstudio.com",
 };
@@ -49,8 +49,8 @@ export default function Products() {
         <Reveal delay={50}>
           <p className="mt-4 max-w-[680px] text-lg text-muted">
             Alongside client engagements, I&rsquo;ve designed and built
-            Gixtronix Technologies&rsquo; own product line — from hardware
-            to software — largely on my own.
+            Gixtronix Technologies&rsquo; own product line, from hardware
+            to software, largely on my own.
           </p>
         </Reveal>
         <Reveal delay={100}>

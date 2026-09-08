@@ -1,4 +1,4 @@
-export const metadata = { title: "Terms — Gowtham Kishore" };
+export const metadata = { title: "Terms | Gowtham Kishore" };
 
 export default function Terms() {
   return (

@@ -24,7 +24,7 @@ export default function Hero() {
         </Reveal>
         <Reveal delay={100}>
           <p className="mt-6 text-lg text-muted">
-            I&rsquo;m a 90s kid who never stopped taking things apart —
+            I&rsquo;m a 90s kid who never stopped taking things apart,
             now building test &amp; measurement, automation, and IIoT
             systems for manufacturers across automotive, energy, defense,
             and advanced industrial sectors. Founder of Gixtronix

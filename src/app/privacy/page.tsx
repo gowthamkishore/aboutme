@@ -1,4 +1,4 @@
-export const metadata = { title: "Privacy policy — Gowtham Kishore" };
+export const metadata = { title: "Privacy policy | Gowtham Kishore" };
 
 export default function Privacy() {
   return (

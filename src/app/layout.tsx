@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gowtham Kishore — Engineering Portfolio",
+  title: "Gowtham Kishore | Engineering Portfolio",
   description:
     "Gowtham Kishore is an engineer delivering test & measurement, manufacturing automation, IIoT, and embedded systems engineering for automotive, energy, and defense manufacturers. Founder of Gixtronix Technologies.",
   openGraph: {
-    title: "Gowtham Kishore — Engineering Portfolio",
+    title: "Gowtham Kishore | Engineering Portfolio",
     description:
       "Engineering intelligent industrial solutions since 2016. Gowtham Kishore, Chennai.",
     type: "website",

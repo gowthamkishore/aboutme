@@ -4,7 +4,7 @@ const PARAGRAPHS = [
   `Growing up in the 90s, I was the kid who took RC cars apart just to
   understand how the wireless signal got from the remote to the wheels.
   By college, I'd graduated to dismantling and rebuilding entire PCs, and
-  fixing whatever household appliance broke down — more out of curiosity
+  fixing whatever household appliance broke down, more out of curiosity
   than obligation.`,
   `Like most Indian households, engineering was already the plan for me.
   But that same curiosity is what pointed me toward Electronics and
@@ -20,7 +20,7 @@ const PARAGRAPHS = [
   `By 2016 I wanted to own what I built instead of just executing someone
   else's roadmap, so I founded Gixtronix Technologies. A decade, 100+
   systems, and partners like ISRO, DRDO, and HAL later, I'm still the
-  same kid who wants to know how things work — just with better tools
+  same kid who wants to know how things work, just with better tools
   now. I'm also back in the classroom part-time, pursuing an MTech in
   Embedded Systems at BITS Pilani (2024–2025), alongside running the
   company.`,

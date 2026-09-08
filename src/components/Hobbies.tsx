@@ -1,4 +1,4 @@
-import { GameController, Car, Airplane, Compass } from "@phosphor-icons/react/dist/ssr";
+import { GameController, Car, Airplane, Compass, GooglePlayLogo } from "@phosphor-icons/react/dist/ssr";
 import Reveal from "./Reveal";
 
 const GAME_FEATURES = [
@@ -38,8 +38,9 @@ export default function Hobbies() {
                 href="https://play.google.com/store/apps/details?id=com.skymaster.rogue&hl=en_IN"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="shrink-0 rounded-full border border-border px-5 py-2.5 text-sm font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
+                className="inline-flex shrink-0 items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
               >
+                <GooglePlayLogo size={18} weight="fill" />
                 Play on Google Play
               </a>
             </div>

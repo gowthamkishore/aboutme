@@ -66,7 +66,7 @@ export default function Achievements() {
         </Reveal>
 
         <Reveal delay={75}>
-          <div className="mt-10 grid grid-cols-2 gap-8 rounded-2xl border border-border p-8 sm:grid-cols-4">
+          <div className="mt-12 grid grid-cols-2 gap-8 rounded-2xl border border-border p-8 sm:grid-cols-4">
             {STATS.map((s) => (
               <div key={s.label} className="text-center">
                 <div className="text-3xl font-semibold text-accent-2">{s.value}</div>

@@ -1,5 +1,14 @@
-import { Broadcast, Factory, ChartLine } from "@phosphor-icons/react/dist/ssr";
+import { Broadcast, Factory, ChartLine, MonitorPlay } from "@phosphor-icons/react/dist/ssr";
 import Reveal from "./Reveal";
+
+const FEATURED = {
+  tag: "Flagship product · Industrial dashboards",
+  title: "SignalStream Studio",
+  detail:
+    "A drag-and-drop canvas that links PLCs, industrial protocols, and corporate databases to a live dashboard — built locally on a factory PC, then mirrored out to a Smart TV, browser, or phone. Connect, design, and publish in three steps.",
+  href: "https://signalstreamstudio.com",
+  cta: "Visit signalstreamstudio.com",
+};
 
 const PRODUCTS = [
   {
@@ -44,9 +53,33 @@ export default function Products() {
             to software — largely on my own.
           </p>
         </Reveal>
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-3">
+        <Reveal delay={100}>
+          <a
+            href={FEATURED.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-12 flex flex-col rounded-2xl border border-border bg-surface p-8 transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.005] sm:flex-row sm:items-center sm:justify-between sm:gap-8"
+          >
+            <div>
+              <MonitorPlay size={28} weight="light" className="text-foreground" />
+              <span className="mt-4 block text-xs font-medium tracking-wide text-muted uppercase">
+                {FEATURED.tag}
+              </span>
+              <h3 className="mt-2 text-2xl font-semibold">{FEATURED.title}</h3>
+              <p className="mt-3 max-w-2xl text-base text-muted">{FEATURED.detail}</p>
+            </div>
+            <span className="mt-6 shrink-0 rounded-full border border-border px-5 py-2.5 text-sm font-semibold text-foreground sm:mt-0">
+              {FEATURED.cta}
+            </span>
+          </a>
+        </Reveal>
+
+        <Reveal delay={150}>
+          <h3 className="mt-16 text-xl font-semibold">Also from Gixtronix</h3>
+        </Reveal>
+        <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
           {PRODUCTS.map((p, i) => (
-            <Reveal key={p.title} delay={100 + i * 75}>
+            <Reveal key={p.title} delay={175 + i * 75}>
               <a
                 href={p.href}
                 target="_blank"

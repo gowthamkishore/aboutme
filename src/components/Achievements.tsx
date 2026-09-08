@@ -94,10 +94,7 @@ export default function Achievements() {
 
         <Reveal delay={150}>
           <h3 className="mt-16 text-xl font-semibold">Trusted by</h3>
-          <p className="mt-2 max-w-[680px] text-base text-muted">
-            Including flagship engagements with ISRO, DRDO, and HAL on
-            defense and aerospace R&amp;D test systems.
-          </p>
+          <p className="mt-2 max-w-[680px] text-base text-muted">Including flagship engagements with ISRO, DRDO, and HAL on defense and aerospace R&amp;D test systems.</p>
           <div className="mt-6 flex flex-wrap gap-3">
             {PARTNERS.map((p) => (
               <span

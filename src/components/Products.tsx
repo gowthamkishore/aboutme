@@ -47,11 +47,7 @@ export default function Products() {
           </h2>
         </Reveal>
         <Reveal delay={50}>
-          <p className="mt-4 max-w-[680px] text-lg text-muted">
-            Alongside client engagements, I&rsquo;ve designed and built
-            Gixtronix Technologies&rsquo; own product line, from hardware
-            to software, largely on my own.
-          </p>
+          <p className="mt-4 max-w-[680px] text-lg text-muted">Alongside client engagements, I&rsquo;ve designed and built Gixtronix Technologies&rsquo; own product line, from hardware to software, largely on my own.</p>
         </Reveal>
         <Reveal delay={100}>
           <a

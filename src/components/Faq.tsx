@@ -47,7 +47,7 @@ export default function Faq() {
           </h2>
         </Reveal>
 
-        <div className="mt-12 max-w-3xl divide-y divide-border border-t border-border">
+        <div className="mt-12 divide-y divide-border border-t border-border">
           {FAQS.map((item, i) => {
             const isOpen = openIndex === i;
             return (

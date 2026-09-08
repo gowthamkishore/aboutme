@@ -40,14 +40,14 @@ export default function Faq() {
 
   return (
     <section id="faq" className="px-6 py-20 sm:py-28">
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-5xl">
         <Reveal>
           <h2 className="text-3xl font-semibold sm:text-4xl">
             Questions worth answering upfront
           </h2>
         </Reveal>
 
-        <div className="mt-10 divide-y divide-border border-t border-border">
+        <div className="mt-10 max-w-3xl divide-y divide-border border-t border-border">
           {FAQS.map((item, i) => {
             const isOpen = openIndex === i;
             return (

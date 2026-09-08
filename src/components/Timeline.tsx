@@ -36,13 +36,13 @@ const MILESTONES = [
 export default function Timeline() {
   return (
     <section id="timeline" className="px-6 py-20 sm:py-28">
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-5xl">
         <Reveal>
           <h2 className="text-3xl font-semibold sm:text-4xl">
             The long way around
           </h2>
         </Reveal>
-        <div className="mt-12 space-y-10 border-l border-border pl-8">
+        <div className="mt-12 max-w-3xl space-y-10 border-l border-border pl-8">
           {MILESTONES.map((m, i) => (
             <Reveal key={m.title} delay={i * 75}>
               <div className="relative">

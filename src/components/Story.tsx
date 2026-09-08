@@ -28,13 +28,13 @@ const PARAGRAPHS = [
 export default function Story() {
   return (
     <section id="story" className="px-6 py-20 sm:py-28">
-      <div className="mx-auto max-w-[680px]">
+      <div className="mx-auto max-w-5xl">
         <Reveal>
           <h2 className="text-3xl font-semibold sm:text-4xl">
             How a curious kid became an engineer
           </h2>
         </Reveal>
-        <div className="mt-8 space-y-5">
+        <div className="mt-8 max-w-[680px] space-y-5">
           {PARAGRAPHS.map((p, i) => (
             <Reveal key={i} delay={i * 75}>
               <p className="text-lg leading-relaxed text-muted">{p}</p>

@@ -39,7 +39,9 @@ export default function Skills() {
     <section id="skills" className="px-6 py-20 sm:py-28">
       <div className="mx-auto max-w-5xl">
         <Reveal>
-          <h2 className="max-w-[680px] text-3xl font-semibold sm:text-4xl">Skills built through the work, not just theory</h2>
+          <h2 className="text-3xl font-semibold sm:text-4xl">
+            Skills built through the work, not just theory
+          </h2>
         </Reveal>
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
           {SKILLS.map((s, i) => (

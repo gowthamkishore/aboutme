@@ -62,7 +62,7 @@ export default function Toolkit() {
     <section id="toolkit" className="px-6 py-20 sm:py-28">
       <div className="mx-auto max-w-5xl">
         <Reveal>
-          <h2 className="max-w-[680px] text-3xl font-semibold sm:text-4xl">
+          <h2 className="text-3xl font-semibold sm:text-4xl">
             The toolkit
           </h2>
         </Reveal>

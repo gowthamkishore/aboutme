@@ -13,7 +13,7 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/gowthamkishorer/" target="_blank" rel="noopener noreferrer" className="transition-colors duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:text-foreground">
             LinkedIn
           </a>
-          <a href="mailto:gowthamkishorer@gmail.com" className="transition-colors duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:text-foreground">
+          <a href="mailto:gowthamkishorer@gixtronix.in" className="transition-colors duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:text-foreground">
             Email
           </a>
         </div>

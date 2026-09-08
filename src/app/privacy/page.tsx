@@ -12,7 +12,7 @@ export default function Privacy() {
       </p>
       <p className="mt-4 text-base text-muted">
         Questions about this policy can be sent to
-        gowthamkishorer@gmail.com.
+        gowthamkishorer@gixtronix.in.
       </p>
     </main>
   );

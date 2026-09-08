@@ -10,7 +10,7 @@ export default function Terms() {
         before work begins.
       </p>
       <p className="mt-4 text-base text-muted">
-        Questions about these terms can be sent to gowthamkishorer@gmail.com.
+        Questions about these terms can be sent to gowthamkishorer@gixtronix.in.
       </p>
     </main>
   );

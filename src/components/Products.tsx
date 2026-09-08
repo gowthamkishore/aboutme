@@ -43,7 +43,7 @@ export default function Products() {
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <h2 className="text-3xl font-semibold sm:text-4xl">
-            Products I built, mostly solo
+            Products I built
           </h2>
         </Reveal>
         <Reveal delay={50}>

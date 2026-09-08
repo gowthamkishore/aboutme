@@ -39,7 +39,7 @@ export default function Timeline() {
       {MILESTONES.map((m, i) => (
         <Reveal key={m.title} delay={i * 75}>
           <div className="relative">
-            <span className="absolute top-1.5 -left-[calc(2rem+5px)] h-2.5 w-2.5 rounded-full bg-accent" />
+            <span className="absolute top-1.5 -left-[calc(2rem+5px)] h-2.5 w-2.5 rounded-full bg-accent-2" />
             <span className="text-sm font-medium text-muted">{m.period}</span>
             <h3 className="mt-1 text-lg font-semibold">{m.title}</h3>
             <p className="mt-2 text-base text-muted">{m.detail}</p>

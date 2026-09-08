@@ -19,14 +19,14 @@ export default function Hero() {
         <Reveal>
           <h1 className="text-4xl leading-tight font-bold sm:text-6xl">
             <span className="text-foreground">Gowtham </span>
-            <span className="bg-gradient-to-r from-accent to-[#9b8cff] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-accent-2 to-[#c9c4fb] bg-clip-text text-transparent">
               Kishore
             </span>
           </h1>
         </Reveal>
         <Reveal delay={75}>
           <span className="mt-4 inline-flex items-center gap-2 rounded-full border border-border px-4 py-1.5 text-sm font-medium text-muted">
-            <Briefcase size={16} weight="light" className="text-accent" />
+            <Briefcase size={16} weight="light" className="text-accent-2" />
             Founder of Gixtronix Technologies
           </span>
         </Reveal>

@@ -47,7 +47,7 @@ export default function Skills() {
           {SKILLS.map((s, i) => (
             <Reveal key={s.title} delay={i * 75}>
               <div className="h-full rounded-2xl border border-border bg-surface p-6">
-                <s.icon size={24} weight="light" className="text-foreground" />
+                <s.icon size={24} weight="light" className="text-accent-2" />
                 <h3 className="mt-4 text-lg font-semibold">{s.title}</h3>
                 <p className="mt-2 text-base text-muted">{s.detail}</p>
               </div>

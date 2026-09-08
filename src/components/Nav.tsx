@@ -22,7 +22,7 @@ export default function Nav() {
         <nav className="mt-6 flex w-max items-center gap-6 rounded-full border border-border bg-surface/70 px-4 py-2 backdrop-blur-xl">
           <a href="#top" className="px-2 text-sm font-semibold">
             <span className="text-foreground">Gowtham </span>
-            <span className="text-accent">Kishore</span>
+            <span className="text-accent-2">Kishore</span>
           </a>
           <div className="hidden items-center gap-4 sm:flex">
             {LINKS.map((link) => (

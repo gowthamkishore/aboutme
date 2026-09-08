@@ -66,3 +66,14 @@ p {
 .word.is-active {
   color: var(--accent);
 }
+
+.btn-glow {
+  border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 700ms var(--ease-fluid), border-color 700ms var(--ease-fluid), transform 700ms var(--ease-fluid);
+}
+
+.btn-glow:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 20px color-mix(in srgb, var(--accent) 45%, transparent);
+}

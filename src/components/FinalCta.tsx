@@ -15,7 +15,7 @@ export default function FinalCta() {
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
             <a
               href="mailto:gowthamkishorer@gixtronix.in"
-              className="rounded-full bg-accent px-6 py-3 text-base font-semibold text-white transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.02] active:scale-[0.98]"
+              className="btn-glow rounded-lg border border-accent px-6 py-3 text-base font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
             >
               gowthamkishorer@gixtronix.in
             </a>
@@ -23,7 +23,7 @@ export default function FinalCta() {
               href="https://www.linkedin.com/in/gowthamkishorer/"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-border px-6 py-3 text-base font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
+              className="rounded-lg border border-border px-6 py-3 text-base font-semibold text-foreground transition-colors duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:border-foreground active:scale-[0.98]"
             >
               Connect on LinkedIn
             </a>

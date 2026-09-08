@@ -17,8 +17,11 @@ export default function Hero() {
           />
         </Reveal>
         <Reveal>
-          <h1 className="bg-gradient-to-r from-white to-[#9b9b9b] bg-clip-text text-4xl leading-tight font-semibold text-transparent sm:text-6xl">
-            Gowtham Kishore
+          <h1 className="text-4xl leading-tight font-bold sm:text-6xl">
+            <span className="text-foreground">Gowtham </span>
+            <span className="bg-gradient-to-r from-accent to-[#9b8cff] bg-clip-text text-transparent">
+              Kishore
+            </span>
           </h1>
         </Reveal>
         <Reveal delay={75}>
@@ -39,13 +42,13 @@ export default function Hero() {
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
             <a
               href="#story"
-              className="rounded-full bg-accent px-6 py-3 text-base font-semibold text-white transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.02] active:scale-[0.98]"
+              className="btn-glow rounded-lg border border-accent px-6 py-3 text-base font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
             >
               My story
             </a>
             <a
               href="#achievements"
-              className="rounded-full border border-border px-6 py-3 text-base font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
+              className="rounded-lg border border-border px-6 py-3 text-base font-semibold text-foreground transition-colors duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:border-foreground active:scale-[0.98]"
             >
               See my work
             </a>

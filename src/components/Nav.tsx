@@ -21,7 +21,8 @@ export default function Nav() {
       <header className="fixed inset-x-0 top-0 z-50 flex justify-center">
         <nav className="mt-6 flex w-max items-center gap-6 rounded-full border border-border bg-surface/70 px-4 py-2 backdrop-blur-xl">
           <a href="#top" className="px-2 text-sm font-semibold">
-            Gowtham Kishore
+            <span className="text-foreground">Gowtham </span>
+            <span className="text-accent">Kishore</span>
           </a>
           <div className="hidden items-center gap-4 sm:flex">
             {LINKS.map((link) => (
@@ -36,7 +37,7 @@ export default function Nav() {
           </div>
           <a
             href="#contact"
-            className="hidden rounded-full bg-accent px-3 py-1.5 text-sm font-semibold text-white transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:scale-[1.02] active:scale-[0.98] sm:inline-block"
+            className="btn-glow hidden rounded-lg border border-accent px-3 py-1.5 text-sm font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98] sm:inline-block"
           >
             Get in touch
           </a>
@@ -81,7 +82,7 @@ export default function Nav() {
         <a
           href="#contact"
           onClick={() => setOpen(false)}
-          className={`mt-4 rounded-full bg-accent px-5 py-2.5 text-base font-semibold text-white transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] ${
+          className={`btn-glow mt-4 rounded-lg border border-accent px-5 py-2.5 text-base font-semibold text-white transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] ${
             open ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
           }`}
           style={{ transitionDelay: open ? `${100 + LINKS.length * 50}ms` : "0ms" }}

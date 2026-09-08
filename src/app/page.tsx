@@ -5,6 +5,7 @@ import Story from "@/components/Story";
 import Timeline from "@/components/Timeline";
 import Skills from "@/components/Skills";
 import Achievements from "@/components/Achievements";
+import Products from "@/components/Products";
 import Hobbies from "@/components/Hobbies";
 import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
@@ -21,6 +22,7 @@ export default function Home() {
         <Timeline />
         <Skills />
         <Achievements />
+        <Products />
         <Hobbies />
         <Faq />
         <FinalCta />

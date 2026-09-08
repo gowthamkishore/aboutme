@@ -25,6 +25,9 @@ const GROUPS = [
     title: "Development Software",
     tags: [
       "LabVIEW (Desktop, RT, FPGA, TestStand)",
+      "VS Code",
+      "CODESYS",
+      "STM32CubeMX",
       "Python",
       "C / C++",
       "Power BI",

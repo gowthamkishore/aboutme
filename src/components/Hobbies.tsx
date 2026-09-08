@@ -7,7 +7,7 @@ const GAME_FEATURES = [
   "Homing missile system",
   "Radio command story system",
   "Haptic feedback and immersive SFX",
-  "Full offline support, with multiplayer deathmatch in development",
+  "Full offline support",
 ];
 
 export default function Hobbies() {

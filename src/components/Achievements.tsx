@@ -69,7 +69,7 @@ export default function Achievements() {
           <div className="mt-10 grid grid-cols-2 gap-8 rounded-2xl border border-border p-8 sm:grid-cols-4">
             {STATS.map((s) => (
               <div key={s.label} className="text-center">
-                <div className="text-3xl font-semibold text-accent">{s.value}</div>
+                <div className="text-3xl font-semibold text-accent-2">{s.value}</div>
                 <div className="mt-1 text-sm text-muted">{s.label}</div>
               </div>
             ))}

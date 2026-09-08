@@ -42,8 +42,8 @@ export default function Products() {
     <section id="products" className="px-6 py-20 sm:py-28">
       <div className="mx-auto max-w-5xl">
         <Reveal>
-          <h2 className="text-3xl font-semibold sm:text-4xl">
-Things I&rsquo;ve shipped
+          <h2 className="text-3xl font-semibold text-accent sm:text-4xl">
+            Things I&rsquo;ve shipped
           </h2>
         </Reveal>
         <Reveal delay={50}>

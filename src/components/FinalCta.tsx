@@ -5,7 +5,7 @@ export default function FinalCta() {
     <section id="contact" className="px-6 py-20 sm:py-28">
       <Reveal>
         <div className="mx-auto flex max-w-[680px] flex-col items-center rounded-2xl border border-border bg-surface px-8 py-16 text-center">
-          <h2 className="text-3xl font-semibold sm:text-4xl">
+          <h2 className="text-3xl font-semibold text-accent sm:text-4xl">
             Let&rsquo;s talk
           </h2>
           <p className="mt-4 text-lg text-muted">

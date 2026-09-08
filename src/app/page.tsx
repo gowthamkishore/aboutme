@@ -19,8 +19,14 @@ export default function Home() {
       <main id="main">
         <Hero />
         <TaglineReveal />
-        <Story />
-        <Timeline />
+        <section id="story" className="px-6 py-20 sm:py-28">
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-16 lg:grid-cols-2">
+            <Story />
+            <div id="timeline">
+              <Timeline />
+            </div>
+          </div>
+        </section>
         <Skills />
         <Toolkit />
         <Achievements />

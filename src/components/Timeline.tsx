@@ -35,26 +35,24 @@ const MILESTONES = [
 
 export default function Timeline() {
   return (
-    <section id="timeline" className="px-6 py-20 sm:py-28">
-      <div className="mx-auto max-w-5xl">
-        <Reveal>
-          <h2 className="text-3xl font-semibold sm:text-4xl">
-            The long way around
-          </h2>
-        </Reveal>
-        <div className="mt-12 max-w-3xl space-y-10 border-l border-border pl-8">
-          {MILESTONES.map((m, i) => (
-            <Reveal key={m.title} delay={i * 75}>
-              <div className="relative">
-                <span className="absolute top-1.5 -left-[calc(2rem+5px)] h-2.5 w-2.5 rounded-full bg-accent" />
-                <span className="text-sm font-medium text-muted">{m.period}</span>
-                <h3 className="mt-1 text-lg font-semibold">{m.title}</h3>
-                <p className="mt-2 text-base text-muted">{m.detail}</p>
-              </div>
-            </Reveal>
-          ))}
-        </div>
+    <div>
+      <Reveal>
+        <h2 className="text-3xl font-semibold sm:text-4xl">
+          The long way around
+        </h2>
+      </Reveal>
+      <div className="mt-12 space-y-10 border-l border-border pl-8">
+        {MILESTONES.map((m, i) => (
+          <Reveal key={m.title} delay={i * 75}>
+            <div className="relative">
+              <span className="absolute top-1.5 -left-[calc(2rem+5px)] h-2.5 w-2.5 rounded-full bg-accent" />
+              <span className="text-sm font-medium text-muted">{m.period}</span>
+              <h3 className="mt-1 text-lg font-semibold">{m.title}</h3>
+              <p className="mt-2 text-base text-muted">{m.detail}</p>
+            </div>
+          </Reveal>
+        ))}
       </div>
-    </section>
+    </div>
   );
 }

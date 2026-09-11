@@ -10,6 +10,7 @@ const LINKS = [
   { label: "Achievements", href: "#achievements" },
   { label: "Products", href: "#products" },
   { label: "Hobbies", href: "#hobbies" },
+  { label: "Services", href: "#services" },
   { label: "FAQ", href: "#faq" },
 ];
 

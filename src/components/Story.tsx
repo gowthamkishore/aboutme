@@ -21,8 +21,9 @@ const PARAGRAPHS = [
   else's roadmap, so I founded Gixtronix Technologies. A decade later,
   that decision has turned into 100+ systems deployed and partners like
   ISRO, DRDO, and HAL.`,
-  `I'm still the same kid who wants to know how things work, just with
-  better tools now.`,
+  `The tools have changed: LabVIEW rigs, industrial systems, a company
+  of my own. But the question is still the same one I started with: how
+  does this work?`,
 ];
 
 export default function Story() {

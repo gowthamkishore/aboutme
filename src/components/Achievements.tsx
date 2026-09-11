@@ -57,7 +57,7 @@ const PARTNERS = [
 
 export default function Achievements() {
   return (
-    <section id="achievements" className="px-6 py-20 sm:py-28">
+    <section id="achievements" className="px-6 py-14 sm:py-20">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <h2 className="text-3xl font-semibold text-accent sm:text-4xl">
@@ -94,7 +94,7 @@ export default function Achievements() {
 
         <Reveal delay={150}>
           <h3 className="mt-16 text-xl font-semibold">Trusted by</h3>
-          <p className="mt-2 max-w-[680px] text-base text-muted">Including flagship engagements with ISRO, DRDO, and HAL on defense and aerospace R&amp;D test systems.</p>
+          <p className="mt-2 text-base text-muted">Including flagship engagements with ISRO, DRDO, and HAL on defense and aerospace R&amp;D test systems.</p>
           <div className="mt-6 flex flex-wrap gap-3">
             {PARTNERS.map((p) => (
               <span

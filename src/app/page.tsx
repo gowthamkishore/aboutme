@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Toolkit from "@/components/Toolkit";
 import Achievements from "@/components/Achievements";
 import Products from "@/components/Products";
+import Services from "@/components/Services";
 import Hobbies from "@/components/Hobbies";
 import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
@@ -20,7 +21,7 @@ export default function Home() {
       <main id="main">
         <Hero />
         <TaglineReveal />
-        <section id="story" className="px-6 py-20 sm:py-28">
+        <section id="story" className="px-6 py-14 sm:py-20">
           <div className="mx-auto max-w-5xl">
             <Reveal>
               <h2 className="text-3xl font-semibold text-accent sm:text-4xl">
@@ -36,10 +37,11 @@ export default function Home() {
           </div>
         </section>
         <Skills />
-        <Toolkit />
         <Achievements />
+        <Toolkit />
         <Products />
         <Hobbies />
+        <Services />
         <Faq />
         <FinalCta />
       </main>

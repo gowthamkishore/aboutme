@@ -18,10 +18,6 @@ const FAQS = [
     a: "Defense and aerospace R&D test systems, including a hydraulic bearing & damper rig up to 200kN load and a real-time IC engine validation system.",
   },
   {
-    q: "Are you still studying?",
-    a: "I completed an MTech in Embedded Systems at BITS Pilani (WILP), part-time, alongside running Gixtronix.",
-  },
-  {
     q: "Do you take on freelance or consulting work?",
     a: "Yes, through Gixtronix Technologies. Ready to work across test & measurement, manufacturing automation, intelligent IIoT & AI, application & software development, embedded systems, and product development, using LabVIEW, Python, C/C++, Power BI, Azure IoT, Flutter, SCADA, MES, PLC/HMI platforms like Siemens, Beckhoff, and Allen-Bradley, and protocols including PROFINET, EtherNet/IP, EtherCAT, Modbus TCP/IP, PROFIBUS, CANopen, OPC UA, and MQTT.",
   },
@@ -52,7 +48,7 @@ export default function Faq() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="px-6 py-20 sm:py-28">
+    <section id="faq" className="px-6 py-14 sm:py-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

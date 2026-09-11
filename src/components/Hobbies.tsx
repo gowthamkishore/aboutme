@@ -1,4 +1,4 @@
-import { GameController, Car, Airplane, Compass, GooglePlayLogo } from "@phosphor-icons/react/dist/ssr";
+import { GameController, Car, Airplane, Compass, GooglePlayLogo, HardDrive, ArrowSquareOut } from "@phosphor-icons/react/dist/ssr";
 import Reveal from "./Reveal";
 
 const GAME_FEATURES = [
@@ -10,9 +10,17 @@ const GAME_FEATURES = [
   "Full offline support",
 ];
 
+const DISKHUB_FEATURES = [
+  "Visual storage browser",
+  "One-click app uninstaller",
+  "Junk file cleanup",
+  "Secure file sharing with a one-time code",
+  "Cloud storage option",
+];
+
 export default function Hobbies() {
   return (
-    <section id="hobbies" className="px-6 py-20 sm:py-28">
+    <section id="hobbies" className="px-6 py-14 sm:py-20">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <h2 className="text-3xl font-semibold text-accent sm:text-4xl">
@@ -55,6 +63,40 @@ export default function Hobbies() {
           </div>
         </Reveal>
 
+        <Reveal delay={100}>
+          <div className="mt-6 rounded-2xl border border-border bg-surface p-6 sm:p-8">
+            <div className="flex flex-wrap items-start justify-between gap-4">
+              <div>
+                <HardDrive size={24} weight="light" className="text-foreground" />
+                <h3 className="mt-4 text-lg font-semibold">
+                  MyDiskHub: a product I built
+                </h3>
+                <p className="mt-2 max-w-[520px] text-base text-muted">
+                  See what&rsquo;s taking up space on your drive, clean it
+                  up, and manage your apps, all from one simple app.
+                </p>
+              </div>
+              <a
+                href="https://mydiskhub.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex shrink-0 items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
+              >
+                <ArrowSquareOut size={18} weight="fill" />
+                Visit mydiskhub.com
+              </a>
+            </div>
+            <ul className="mt-6 grid grid-cols-1 gap-x-8 gap-y-2 text-base text-muted sm:grid-cols-2">
+              {DISKHUB_FEATURES.map((f) => (
+                <li key={f} className="flex gap-2">
+                  <span className="text-foreground">–</span>
+                  {f}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Reveal>
+
         <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
           <Reveal delay={125}>
             <div className="h-full rounded-2xl border border-border bg-surface p-6">
@@ -75,9 +117,10 @@ export default function Hobbies() {
               <Compass size={24} weight="light" className="text-foreground" />
               <h3 className="mt-4 text-lg font-semibold">Travel</h3>
               <p className="mt-2 text-base text-muted">
-                Chasing hidden gems and the people behind them, across
-                almost every state in India, and further out to Vietnam,
-                Thailand, Malaysia, and Singapore.
+                Traveled across almost every state in India, plus Vietnam,
+                Thailand, Malaysia, and Singapore, with a love for
+                trekking, scuba diving, surfing, and hunting down good food
+                along the way.
               </p>
             </div>
           </Reveal>

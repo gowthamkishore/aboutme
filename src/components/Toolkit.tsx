@@ -22,7 +22,7 @@ const GROUPS = [
     tags: ["SolidWorks", "AutoCAD", "Fusion 360", "KiCad", "Eagle"],
   },
   {
-    title: "Development Software",
+    title: "Software",
     tags: [
       "LabVIEW (Desktop, RT, FPGA)",
       "VS Code",
@@ -32,7 +32,13 @@ const GROUPS = [
       "Python",
       "C / C++",
       "Power BI",
+      "Azure",
       "Azure IoT",
+      "Azure Web Apps",
+      "Microsoft AI Foundry",
+      "GitHub",
+      "Cloudflare",
+      "Claude Code",
       "Flutter",
       "SCADA",
       "MES",
@@ -59,7 +65,7 @@ const GROUPS = [
 
 export default function Toolkit() {
   return (
-    <section id="toolkit" className="px-6 py-20 sm:py-28">
+    <section id="toolkit" className="px-6 py-14 sm:py-20">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <h2 className="text-3xl font-semibold text-accent sm:text-4xl">

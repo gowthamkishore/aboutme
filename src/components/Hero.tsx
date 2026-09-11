@@ -33,19 +33,17 @@ export default function Hero() {
         </Reveal>
         <Reveal delay={100}>
           <p className="mt-6 text-lg text-muted">
-            I build test &amp; measurement, automation, and IIoT systems
-            for automotive, energy, defense, and advanced industrial
-            manufacturers, the same curiosity that once meant taking
-            things apart, now aimed at building them.
+            Founder and engineer, turning a lifelong curiosity about how
+            things work into systems that run on real factory floors.
           </p>
         </Reveal>
         <Reveal delay={200}>
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
             <a
-              href="#story"
+              href="#services"
               className="btn-glow rounded-lg border border-accent px-6 py-3 text-base font-semibold text-foreground transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] active:scale-[0.98]"
             >
-              My story
+              What I can do for you
             </a>
             <a
               href="#achievements"

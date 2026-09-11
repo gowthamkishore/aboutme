@@ -1,6 +1,6 @@
 # Gowtham Kishore — Portfolio
 
-Personal portfolio site, built with [Next.js](https://nextjs.org) and statically exported for deployment on GitHub Pages at [gowthamkishore.github.io/PersonalPortfolio](https://gowthamkishore.github.io/PersonalPortfolio).
+Personal portfolio site, built with [Next.js](https://nextjs.org) and statically exported for deployment on GitHub Pages at [gowthamkishore.github.io/aboutme](https://gowthamkishore.github.io/aboutme).
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ npm run build
 
 ## Deployment
 
-The site deploys to **GitHub Pages** via [`.github/workflows/deploy-gh-pages.yml`](.github/workflows/deploy-gh-pages.yml), which builds and publishes `out/` on every push to `main`. `next.config.ts` sets `basePath: "/PersonalPortfolio"` to match the repo-scoped Pages URL.
+The site deploys to **GitHub Pages** via [`.github/workflows/deploy-gh-pages.yml`](.github/workflows/deploy-gh-pages.yml), which builds and publishes `out/` on every push to `main`. `next.config.ts` sets `basePath: "/aboutme"` to match the repo-scoped Pages URL.
 
 ## Tech Stack
 

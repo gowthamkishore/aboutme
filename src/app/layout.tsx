@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gowthamkishorer.com"),
+  metadataBase: new URL("https://gowthamkishore.github.io/PersonalPortfolio"),
   title: "Gowtham Kishore | Engineering Portfolio",
   description:
     "Gowtham Kishore delivers test & measurement, IIoT, and embedded systems for automotive, energy, and defense manufacturers. Founder of Gixtronix Technologies.",
@@ -41,8 +41,8 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Gowtham Kishore",
-  url: "https://gowthamkishorer.com",
-  image: "https://gowthamkishorer.com/gowtham.png",
+  url: "https://gowthamkishore.github.io/PersonalPortfolio",
+  image: "https://gowthamkishore.github.io/PersonalPortfolio/gowtham.png",
   jobTitle: "Founder & Engineer",
   worksFor: {
     "@type": "Organization",

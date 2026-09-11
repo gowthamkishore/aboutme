@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://gowthamkishorer.com/sitemap.xml",
+    sitemap: "https://gowthamkishore.github.io/PersonalPortfolio/sitemap.xml",
   };
 }

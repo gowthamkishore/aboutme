@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Briefcase } from "@phosphor-icons/react/dist/ssr";
+import { BASE_PATH } from "@/lib/base-path";
 import Reveal from "./Reveal";
 
 export default function Hero() {
@@ -8,7 +9,7 @@ export default function Hero() {
       <div className="mx-auto flex max-w-[680px] flex-col items-center text-center">
         <Reveal>
           <Image
-            src="/gowtham.png"
+            src={`${BASE_PATH}/gowtham.png`}
             alt="Gowtham Kishore"
             width={128}
             height={128}
